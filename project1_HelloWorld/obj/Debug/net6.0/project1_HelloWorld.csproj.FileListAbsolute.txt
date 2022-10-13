@@ -1,0 +1,15 @@
+E:\Обучение\C#\L1\project1_HelloWorld\bin\Debug\net6.0\project1_HelloWorld.exe
+E:\Обучение\C#\L1\project1_HelloWorld\bin\Debug\net6.0\project1_HelloWorld.deps.json
+E:\Обучение\C#\L1\project1_HelloWorld\bin\Debug\net6.0\project1_HelloWorld.runtimeconfig.json
+E:\Обучение\C#\L1\project1_HelloWorld\bin\Debug\net6.0\project1_HelloWorld.dll
+E:\Обучение\C#\L1\project1_HelloWorld\bin\Debug\net6.0\project1_HelloWorld.pdb
+E:\Обучение\C#\L1\project1_HelloWorld\obj\Debug\net6.0\project1_HelloWorld.csproj.AssemblyReference.cache
+E:\Обучение\C#\L1\project1_HelloWorld\obj\Debug\net6.0\project1_HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+E:\Обучение\C#\L1\project1_HelloWorld\obj\Debug\net6.0\project1_HelloWorld.AssemblyInfoInputs.cache
+E:\Обучение\C#\L1\project1_HelloWorld\obj\Debug\net6.0\project1_HelloWorld.AssemblyInfo.cs
+E:\Обучение\C#\L1\project1_HelloWorld\obj\Debug\net6.0\project1_HelloWorld.csproj.CoreCompileInputs.cache
+E:\Обучение\C#\L1\project1_HelloWorld\obj\Debug\net6.0\project1_HelloWorld.dll
+E:\Обучение\C#\L1\project1_HelloWorld\obj\Debug\net6.0\refint\project1_HelloWorld.dll
+E:\Обучение\C#\L1\project1_HelloWorld\obj\Debug\net6.0\project1_HelloWorld.pdb
+E:\Обучение\C#\L1\project1_HelloWorld\obj\Debug\net6.0\project1_HelloWorld.genruntimeconfig.cache
+E:\Обучение\C#\L1\project1_HelloWorld\obj\Debug\net6.0\ref\project1_HelloWorld.dll
