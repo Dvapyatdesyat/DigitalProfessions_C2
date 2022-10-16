@@ -34,15 +34,28 @@ else
             Console.WriteLine("MAX=" + number2);
             Console.WriteLine("MIN=" + number1);
         }
+    }
+    if (number == 2) // Проверяем ввод. Выполняем соответствующую задачу
+    {
+        Console.WriteLine("Программа для решения задачи №2:");
+        int[] array = new int[3]; // обяъвили массив из 3 элементов
+        int max = array[1];
+        // заполним массив с клавиатуры
+        for (int i = 0; i < array.Length; i++)
+        {
+            Console.WriteLine("Введите {0}-й элемент", i + 1);
+            array[i] = int.Parse(Console.ReadLine());
+            if (array[i] > max)
+            {
+                max = array[i];
+            }
+        }
+        Console.WriteLine("MAX= " + max);
+
+
 
     }
 }
-
-// Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
-
-// a = 5; b = 7 -> max = 7
-// a = 2 b = 10 -> max = 10
-// a = -9 b = -3 -> max = -3
 
 // Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 
