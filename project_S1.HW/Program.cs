@@ -22,15 +22,18 @@ else
         int number2 = int.Parse(Console.ReadLine()!);
         int min = number1;
         int max = number2;
-        Console.Clear(); // очищаем консоль от лишней информации
-        Console.WriteLine("Программа для решения задачи №1:");
+
         if (number1 > number2)
         {
+            Console.WriteLine("Число №1: " + number1);
+            Console.WriteLine("Число №2: " + number2);
             Console.WriteLine("MAX=" + number1);
             Console.WriteLine("MIN=" + number2);
         }
         else
         {
+            Console.WriteLine("Число №1: " + number1);
+            Console.WriteLine("Число №2: " + number2);
             Console.WriteLine("MAX=" + number2);
             Console.WriteLine("MIN=" + number1);
         }
@@ -50,8 +53,7 @@ else
                 max = array[i];
             }
         }
-        Console.Clear(); // очищаем консоль от лишней информации
-        Console.WriteLine("Программа для решения задачи №2:");
+
         Console.WriteLine("MAX= " + max);
     }
     if (number == 3) // Проверяем ввод. Выполняем соответствующую задачу
@@ -77,40 +79,18 @@ else
         var digit4 = int.Parse(Console.ReadLine()!); //переменная для задачи №4
         if (digit4 < 1)
         {
-            Console.WriteLine("ALARM!!! Введена неправильная размерность массива");
+            Console.WriteLine("ALARM!!! Введена неправильное значение");
             goto Found2; // Переходим к вводу по тегу Found2
         }
         else
         {
-
-
-            int[] array4 = new int[digit4]; // обяъвили массив из digti4 элементов
-
-            // заполним массив с клавиатуры
-            for (int i = 0; i < array4.Length; i++)
-            {
-                Console.WriteLine("Введите {0}-й элемент", i + 1);
-                int temp = int.Parse(Console.ReadLine());
-                if (temp % 2 == 0)
-                {
-                    array4[i] = temp;
-                }
-
-            }
             Console.WriteLine("Искомый массив: ");
-            foreach (var item in array4)
+            for (int i = 2; i < digit4 + 2; i = i + 2)
             {
-                if (item != 0)
-                {
-                    Console.Write(item + "," + " ");
-                }
+
+                Console.Write(i + ","+" ");
             }
+
         }
     }
 }
-
-
-//Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
-
-//5 -> 2, 4
-//8 -> 2, 4, 6, 8
