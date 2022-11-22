@@ -12,7 +12,7 @@
 
 
 
-void Printarray(int[,] matr)
+void PrintArray(int[,] matr)
 {
     for (int rows = 0; rows < matr.GetLength(0); rows++)
     {
@@ -37,6 +37,6 @@ void FillArray(int[,] matr)
 }
 
 int[,] table = new int[3, 4];
-Printarray(table);
+PrintArray(table);
 FillArray (table);
-Printarray(table);
+PrintArray(table);
