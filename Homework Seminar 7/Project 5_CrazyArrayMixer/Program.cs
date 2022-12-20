@@ -71,7 +71,7 @@ void PrintArray2D(int[,] matr)
 }
 
 
-int[,] FillArray(int n, int m)
+int[,] AdvancedFillArray(int n, int m) //метод заполняющий массив случайными уникальными числами
 {
     int[,] someArray = new int[n, m];
     Random random = new();
@@ -130,7 +130,7 @@ int[,] ArrayMixer(int[,] array)
 int[] inputArray = InputCheckString(); // введем размерность массива через запятую
 Console.WriteLine(" ");
 //PrintArray(inputArray);
-int[,] primaryArray = FillArray(inputArray[0], inputArray[1]);
+int[,] primaryArray = AdvancedFillArray(inputArray[0], inputArray[1]);
 PrintArray2D(primaryArray);
 Console.WriteLine(" ");
 int[,] secondaryArray = ArrayMixer(primaryArray);
