@@ -13,12 +13,7 @@ int InputCheck()
     return inputValue;
 }
 
-// // рабочий метод. Вывод чисел от 1 до N
-// string Sequence(int n)
-// {
-//     if (n == 1) return "1";
-//     else return (Sequence(n - 1))+ " " + n.ToString();
-// }
+
 
 void Sequence(int n)
 {
