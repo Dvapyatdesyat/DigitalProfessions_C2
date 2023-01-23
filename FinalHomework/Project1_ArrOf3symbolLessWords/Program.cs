@@ -17,6 +17,7 @@ string[] FillArray(int n)
 
     for (int i = 0; i < n; i++)
     {
+        Console.WriteLine($"Введите {i} элемент массива: ");
         someArray[i] = Console.ReadLine()!;
     }
     return someArray;
@@ -24,7 +25,7 @@ string[] FillArray(int n)
 
 //Метод печати массива
 
-void PrintArray(int[] array)
+void PrintArray(string[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
@@ -37,6 +38,18 @@ void PrintArray(int[] array)
 }
 
 //Метод подсчета элементов массива которые содержат меньше 3 символов
+int Array3AndLessCounter(string[] array)
+{
+    int count = 0;
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (array[i].Length <= 3)
+        {
+            count++;
+        }
+    }
+    return count;
+}
 
 //Метод заполнения результирующего массива
 
@@ -48,7 +61,14 @@ Console.WriteLine("Введите количество элементов мас
 int SomeArrayLenth = InputCheck(); // введем число и проверим ввод
 Console.WriteLine(" ");
 string[] primaryArray = FillArray(SomeArrayLenth);
-// PrintArray2D(primaryArray);
+Console.WriteLine("Введенный массив: ");
+PrintArray(primaryArray);
+Console.WriteLine(" ");
+int count = Array3AndLessCounter(primaryArray);
+Console.WriteLine(count);
+
+//Console.WriteLine("Полученный массив: ");
+//PrintArray(resultArray);
 // Console.WriteLine(" ");
 // int[,] seconadaryArray = ArraySorterInOrder(primaryArray);
 // PrintArray2D(seconadaryArray);
